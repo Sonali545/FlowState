@@ -1,27 +1,6 @@
 # 🌊 FlowState  
 *A fully integrated AI-powered workspace for productivity & collaboration.*
 
----
-
-## 🚀 Table of Contents  
-- [Overview](#overview)  
-- [Features](#features)  
-- [Live Demo](#live-demo)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Environment Setup](#environment-setup)  
-  - [Running Locally](#running-locally)  
-- [Usage Guide](#usage-guide)  
-- [Architecture & Folder Structure](#architecture--folder-structure)  
-- [API & Backend](#api--backend)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
-
----
-
 ## 📖 Overview  
 **FlowState** is a full-stack, AI-enhanced productivity platform that combines real-time collaboration, task management, and intelligent assistance into one seamless experience.  
 It helps users create projects, organize workflows, collaborate live, and use AI tools (summarization, sentiment analysis, and task prediction) to boost efficiency.
