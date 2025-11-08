@@ -77,9 +77,13 @@ pip install -r requirements.txt
 
 FlowState/
 ├── components/              # Reusable UI components (Dashboard, Editor, Chat, etc.)
+
 ├── hooks/                   # Custom React hooks
+
 ├── services/                # API integrations and backend communication
+
 ├── utils/                   # Helper functions
+
 ├── flowstate-ml-backend/    # Python ML backend
 │   ├── app.py
 │   ├── models/
