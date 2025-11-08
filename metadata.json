@@ -1,0 +1,5 @@
+{
+  "name": "FlowState",
+  "description": "A modern, AI-powered project management and documentation tool that combines a Confluence-style editor with a Jira-style Kanban board. Designed for real-time collaboration with a fluid, aesthetic, and intuitive interface.",
+  "requestFramePermissions": []
+}

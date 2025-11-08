@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowState - Your AI-Powered Workspace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Smooth transitions for color and background-color */
+      * {
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      }
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        #printable-area, #printable-area * {
+          visibility: visible;
+        }
+        #printable-area {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+        }
+        header, aside, .no-print {
+            display: none !important;
+        }
+      }
+
+      /* THEME UTILITY CLASSES */
+      .bg-primary { background-color: var(--bg-primary); }
+      .bg-secondary { background-color: var(--bg-secondary); }
+      .text-primary { color: var(--text-primary); }
+      .text-secondary { color: var(--text-secondary); }
+      .border-primary { border-color: var(--border-primary); }
+      
+      .bg-accent { background-color: var(--accent-primary); }
+      .text-accent { color: var(--accent-text); }
+      .border-accent { border-color: var(--accent-primary); }
+      .hover\:bg-accent-hover:hover { background-color: var(--accent-secondary); }
+
+      .hover\:bg-hover:hover { background-color: var(--hover-primary); }
+      
+      .ring-accent {
+        --tw-ring-color: var(--accent-primary);
+        --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+      }
+       .ring-accent-secondary {
+        --tw-ring-color: var(--accent-secondary);
+         --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+      }
+
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.5.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
