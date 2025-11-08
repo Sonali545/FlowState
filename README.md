@@ -76,6 +76,7 @@ pip install -r requirements.txt
 🏗 Architecture & Folder Structure
 
 FlowState/
+
 ├── components/              # Reusable UI components (Dashboard, Editor, Chat, etc.)
 
 ├── hooks/                   # Custom React hooks
@@ -85,12 +86,19 @@ FlowState/
 ├── utils/                   # Helper functions
 
 ├── flowstate-ml-backend/    # Python ML backend
+
 │   ├── app.py
+
 │   ├── models/
+
 │   ├── utils/
+
 │   └── data/
+
 ├── package.json
+
 ├── tsconfig.json
+
 └── README.md
 
 FlowState is a next-generation workspace merging design, code, and intelligence.
